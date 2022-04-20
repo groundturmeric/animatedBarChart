@@ -24,7 +24,7 @@ circle {
 }
 
 .barTooltip {
-    width: 13rem;
+    width: 7rem;
     position: absolute;
     visibility: hidden;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
