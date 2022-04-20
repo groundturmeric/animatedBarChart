@@ -156,14 +156,14 @@ var colorScale = d3.scaleSequential()
             // let y = +d3.select(this).attr("y") ;
 
 
-            tooltip.style("visibility", "visible")
-                // .style("left", `${x}px`)
-                // .style("top", `${y}px`)
-                .style("left", x + "px") 
-                .style("top", y + "px") 
-                .html(`Population: ${d[year]}
-                        <br> ${d.name} 
-                        <br>${year}`);
+//             tooltip.style("visibility", "visible")
+//                 // .style("left", `${x}px`)
+//                 // .style("top", `${y}px`)
+//                 .style("left", x + "px") 
+//                 .style("top", y + "px") 
+//                 .html(`Population: ${d[year]}
+//                         <br> ${d.name} 
+//                         <br>${year}`);
 
             d3.select(this)
                 .attr("stroke", "black")
